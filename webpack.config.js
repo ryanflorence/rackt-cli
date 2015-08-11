@@ -24,6 +24,8 @@ module.exports = {
 
   entry: buildEntries(),
 
+  devtool: 'eval',
+
   output: {
     filename: '[name].js',
     chunkFilename: '[id].chunk.js',
